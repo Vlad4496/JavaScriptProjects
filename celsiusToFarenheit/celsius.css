@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: block;
+}
+
+#button {
+    margin: 1em 0;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+    border-style: none;
+    background-color: lightblue;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
